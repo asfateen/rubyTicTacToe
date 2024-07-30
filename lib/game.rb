@@ -43,11 +43,11 @@ class Game
   end
   
   def to_s
-    "#{@positions[0]} | #{@positions[1]} | #{@positions[2]}"\
+    "\n#{@positions[0]} | #{@positions[1]} | #{@positions[2]}"\
     "\n-----------"\
     "\n#{@positions[3]} | #{@positions[4]} | #{@positions[5]}"\
     "\n-----------"\
-    "\n#{@positions[6]} | #{@positions[7]} | #{@positions[8]}"\
+    "\n#{@positions[6]} | #{@positions[7]} | #{@positions[8]}\n\n"\
   end
 
   def get_selection_from_user
